@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(228, 228, 226);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.title{
+    width: 100%;
+    margin: 42px;
+    display: block;
+    text-align: center;
+    
+    
+}
+.title h1{
+    margin: 21px;
+    font-family: "Raleway", sans-serif;
+}
+.title p{
+    font-family: "Raleway", sans-serif;
+}
+.blog-name{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    margin: 2px;
+}
+.pictures{
+    width: 65%;
+    margin: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.pictures img{
+    text-align: justify;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+.pictures h3{
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+.pictures h4{
+    margin: 5px 0;
+    padding: 10px;
+}
+.pictures p{
+    padding: 10px;
+}
+.readmore{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.btn{
+    padding: 10px;
+    
+    margin: 10px;
+    
+}
+.btn:hover{
+    background-color: rgb(184, 182, 182);
+}
+.span-comments{
+    padding: 10px;
+    
+}
+.num-span{
+    
+    background-color: #000;
+    color: white;
+    
+    /* border-radius: 5px; */
+}
+.right-bar{
+    width: 30%;
+    position: absolute;
+    top: 180px;
+    right: 0px;
+    margin-right: 20px;
+
+}
+.name {
+    
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.vertical-tabs{
+    margin-top: 20px;
+    height: 40%;
+
+}
+
+.tab-items{
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: inherit;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0px;
+}
+.tab-items button{
+    float: left;
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: left;
+    transition: 0.3s;
+    padding: 20px;
+    height: 100%;
+}
+.popular{
+    padding: 70px;
+    
+    height: 150%;
+    display: inline-block;
+}
+.tab-items button:hover{
+    background-color: #ccc;
+}
+.tab-items img{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.tabs{
+    display: block;
+    justify-content: center;
+
+}
+.footer{
+    background-color: rgb(102, 90, 90);
+    height: 30vh;
+    margin-top: 40px;
+}
+.footer button{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color:#000 ;
+    color: white;
+    display: inline-block;
+}
+.footer button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.footer p{
+    font-family: "Raleway", sans-serif;
+    color: rgb(240, 230, 230);
+    margin: 20px;
+}
